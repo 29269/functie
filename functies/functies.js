@@ -21,7 +21,7 @@ let recept = [
 
 menu();
 functietje(2);
-
+meerelemeente(2, 10);
 
 function menu() {
   for (let i = 0; i < recept.length; i++) {
@@ -31,6 +31,11 @@ function menu() {
 
 function functietje(number){
   console.log(recept[number]);
+}
+function meerelemeente(start, eind) {
+  for (let i = start; i < eind; i++) {
+        console.log(recept[i])
+  }
 }
 console.log(waarde("Heerlijk"));
 let recept1 = waarde("Heerlijk");
